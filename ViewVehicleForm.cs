@@ -63,6 +63,7 @@ namespace VehicleDealership
            
         }
 
+
         private void SaveButton_Click(object sender, EventArgs e)
         {
 
@@ -73,7 +74,7 @@ namespace VehicleDealership
             crm.VehicleTypes.Add(vehicleType);
             crm.SaveChanges();*/
             VehiclesEntities1 crm = new VehiclesEntities1();
-            
+            string hello = "hi";
             
             using (var context = new VehiclesEntities1())
             {
