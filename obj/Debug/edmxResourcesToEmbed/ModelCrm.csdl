@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VehiclesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Make">
+    <Key>
+      <PropertyRef Name="MakeID" />
+    </Key>
+    <Property Name="MakeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Vehicles" Relationship="Self.FK__Vehicle__MakeId__4D94879B" FromRole="Make" ToRole="Vehicle" />
+  </EntityType>
+  <EntityType Name="Model">
+    <Key>
+      <PropertyRef Name="ModelId" />
+    </Key>
+    <Property Name="ModelId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EngineSize" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NumOfDoors" Type="Int32" />
+    <Property Name="Colour" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VehicleTypeId" Type="Int32" />
+    <NavigationProperty Name="VehicleType" Relationship="Self.FK__Model__VehicleTy__48CFD27E" FromRole="Model" ToRole="VehicleType" />
+    <NavigationProperty Name="Vehicles" Relationship="Self.FK__Vehicle__ModelId__4E88ABD4" FromRole="Model" ToRole="Vehicle" />
+  </EntityType>
+  <EntityType Name="Vehicle">
+    <Key>
+      <PropertyRef Name="VehicleId" />
+    </Key>
+    <Property Name="VehicleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MakeId" Type="Int32" />
+    <Property Name="ModelId" Type="Int32" />
+    <Property Name="Year" Type="Int32" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Cost" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="SoldDate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Make" Relationship="Self.FK__Vehicle__MakeId__4D94879B" FromRole="Vehicle" ToRole="Make" />
+    <NavigationProperty Name="Model" Relationship="Self.FK__Vehicle__ModelId__4E88ABD4" FromRole="Vehicle" ToRole="Model" />
+  </EntityType>
+  <EntityType Name="VehicleType">
+    <Key>
+      <PropertyRef Name="VehicleTypeId" />
+    </Key>
+    <Property Name="VehicleTypeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Models" Relationship="Self.FK__Model__VehicleTy__48CFD27E" FromRole="VehicleType" ToRole="Model" />
+  </EntityType>
+  <Association Name="FK__Vehicle__MakeId__4D94879B">
+    <End Role="Make" Type="Self.Make" Multiplicity="0..1" />
+    <End Role="Vehicle" Type="Self.Vehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Make">
+        <PropertyRef Name="MakeID" />
+      </Principal>
+      <Dependent Role="Vehicle">
+        <PropertyRef Name="MakeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Model__VehicleTy__48CFD27E">
+    <End Role="VehicleType" Type="Self.VehicleType" Multiplicity="0..1" />
+    <End Role="Model" Type="Self.Model" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VehicleType">
+        <PropertyRef Name="VehicleTypeId" />
+      </Principal>
+      <Dependent Role="Model">
+        <PropertyRef Name="VehicleTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Vehicle__ModelId__4E88ABD4">
+    <End Role="Model" Type="Self.Model" Multiplicity="0..1" />
+    <End Role="Vehicle" Type="Self.Vehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Model">
+        <PropertyRef Name="ModelId" />
+      </Principal>
+      <Dependent Role="Vehicle">
+        <PropertyRef Name="ModelId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VehiclesEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Makes" EntityType="Self.Make" />
+    <EntitySet Name="Models" EntityType="Self.Model" />
+    <EntitySet Name="Vehicles" EntityType="Self.Vehicle" />
+    <EntitySet Name="VehicleTypes" EntityType="Self.VehicleType" />
+    <AssociationSet Name="FK__Vehicle__MakeId__4D94879B" Association="Self.FK__Vehicle__MakeId__4D94879B">
+      <End Role="Make" EntitySet="Makes" />
+      <End Role="Vehicle" EntitySet="Vehicles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Model__VehicleTy__48CFD27E" Association="Self.FK__Model__VehicleTy__48CFD27E">
+      <End Role="VehicleType" EntitySet="VehicleTypes" />
+      <End Role="Model" EntitySet="Models" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Vehicle__ModelId__4E88ABD4" Association="Self.FK__Vehicle__ModelId__4E88ABD4">
+      <End Role="Model" EntitySet="Models" />
+      <End Role="Vehicle" EntitySet="Vehicles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

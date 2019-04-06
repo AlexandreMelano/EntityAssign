@@ -1,0 +1,16 @@
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\obj\Debug\VehicleDealership.csprojAssemblyReference.cache
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\obj\Debug\VehicleDealership.Properties.Resources.resources
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\obj\Debug\VehicleDealership.VehicleForm.resources
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\obj\Debug\VehicleDealership.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\obj\Debug\VehicleDealership.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\bin\Debug\VehicleDealership.exe.config
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\bin\Debug\VehicleDealership.exe
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\bin\Debug\VehicleDealership.pdb
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\obj\Debug\VehicleDealership.exe
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\obj\Debug\VehicleDealership.pdb
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\bin\Debug\EntityFramework.dll
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\bin\Debug\EntityFramework.xml
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\obj\Debug\VehicleDealership.csproj.CopyComplete
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\obj\Debug\VehicleDealership.ViewVehicleForm.resources
