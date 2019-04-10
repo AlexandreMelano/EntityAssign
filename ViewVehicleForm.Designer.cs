@@ -46,7 +46,6 @@
             this.VehicleTypeLabel = new System.Windows.Forms.Label();
             this.TitleLabel = new System.Windows.Forms.Label();
             this.VehicleLabel = new System.Windows.Forms.Label();
-            this.ViewVehiclesButton = new System.Windows.Forms.Button();
             this.vehiclesDataSet1 = new VehicleDealership.VehiclesDataSet1();
             this.makeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.makeTableAdapter = new VehicleDealership.VehiclesDataSet1TableAdapters.MakeTableAdapter();
@@ -242,15 +241,6 @@
             this.VehicleLabel.Size = new System.Drawing.Size(77, 25);
             this.VehicleLabel.TabIndex = 17;
             this.VehicleLabel.Text = "Vehicle";
-            // 
-            // ViewVehiclesButton
-            // 
-            this.ViewVehiclesButton.Location = new System.Drawing.Point(583, 505);
-            this.ViewVehiclesButton.Name = "ViewVehiclesButton";
-            this.ViewVehiclesButton.Size = new System.Drawing.Size(109, 23);
-            this.ViewVehiclesButton.TabIndex = 24;
-            this.ViewVehiclesButton.Text = "View Vehicles";
-            this.ViewVehiclesButton.UseVisualStyleBackColor = true;
             // 
             // vehiclesDataSet1
             // 
@@ -508,9 +498,9 @@
             // 
             // GoBackButton
             // 
-            this.GoBackButton.Location = new System.Drawing.Point(737, 505);
+            this.GoBackButton.Location = new System.Drawing.Point(627, 505);
             this.GoBackButton.Name = "GoBackButton";
-            this.GoBackButton.Size = new System.Drawing.Size(75, 23);
+            this.GoBackButton.Size = new System.Drawing.Size(130, 23);
             this.GoBackButton.TabIndex = 53;
             this.GoBackButton.Text = "Go Back";
             this.GoBackButton.UseVisualStyleBackColor = true;
@@ -537,9 +527,9 @@
             // 
             // DeleteButton
             // 
-            this.DeleteButton.Location = new System.Drawing.Point(852, 504);
+            this.DeleteButton.Location = new System.Drawing.Point(850, 505);
             this.DeleteButton.Name = "DeleteButton";
-            this.DeleteButton.Size = new System.Drawing.Size(75, 23);
+            this.DeleteButton.Size = new System.Drawing.Size(130, 23);
             this.DeleteButton.TabIndex = 55;
             this.DeleteButton.Text = "Delete";
             this.DeleteButton.UseVisualStyleBackColor = true;
@@ -576,7 +566,6 @@
             this.Controls.Add(nameLabel);
             this.Controls.Add(this.nameTextBox);
             this.Controls.Add(this.makeBindingNavigator);
-            this.Controls.Add(this.ViewVehiclesButton);
             this.Controls.Add(this.VehicleLabel);
             this.Controls.Add(this.TitleLabel);
             this.Controls.Add(this.VehicleTypeLabel);
@@ -602,7 +591,6 @@
         private System.Windows.Forms.Label VehicleTypeLabel;
         private System.Windows.Forms.Label TitleLabel;
         private System.Windows.Forms.Label VehicleLabel;
-        private System.Windows.Forms.Button ViewVehiclesButton;
         private VehiclesDataSet1 vehiclesDataSet1;
         private System.Windows.Forms.BindingSource makeBindingSource;
         private VehiclesDataSet1TableAdapters.MakeTableAdapter makeTableAdapter;
