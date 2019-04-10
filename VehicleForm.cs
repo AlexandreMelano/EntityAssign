@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace VehicleDealership
 {
-    public partial class VehicleForm : Form
+    public partial class VehicleForm  : Form 
     {
         public VehicleForm()
         {
             InitializeComponent();
+             
         }
 
         private void Vehicle_Load(object sender, EventArgs e)
@@ -75,7 +76,8 @@ namespace VehicleDealership
             //test message to display vehicle added
             if (crm.Vehicles.Any(s => s.Make == vehicle.Make))
             {
-                MessageBox.Show(vehicle.Make + " added");
+                // MessageBox.Show(vehicle.Make.Name + " added");
+                MessageBox.Show("new vehicle added");
             }
 
         }

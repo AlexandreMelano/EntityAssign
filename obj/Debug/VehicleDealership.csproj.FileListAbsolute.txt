@@ -1,4 +1,3 @@
-C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\obj\Debug\VehicleDealership.csprojAssemblyReference.cache
 C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\obj\Debug\VehicleDealership.Properties.Resources.resources
 C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\obj\Debug\VehicleDealership.VehicleForm.resources
 C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\obj\Debug\VehicleDealership.csproj.GenerateResource.cache
@@ -14,3 +13,4 @@ C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\bin\Debug\EntityFramewo
 C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\obj\Debug\VehicleDealership.csproj.CopyComplete
 C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\obj\Debug\VehicleDealership.ViewVehicleForm.resources
+C:\Users\Alex\source\repos\DelegateLab\VehicleDealership\obj\Debug\VehicleDealership.csprojAssemblyReference.cache

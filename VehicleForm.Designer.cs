@@ -60,7 +60,7 @@
             this.EngineSizeTextBox.Location = new System.Drawing.Point(1078, 150);
             this.EngineSizeTextBox.Name = "EngineSizeTextBox";
             this.EngineSizeTextBox.Size = new System.Drawing.Size(101, 22);
-            this.EngineSizeTextBox.TabIndex = 0;
+            this.EngineSizeTextBox.TabIndex = 6;
             // 
             // VehicleTypeNameTextBox
             // 
@@ -68,14 +68,13 @@
             this.VehicleTypeNameTextBox.Name = "VehicleTypeNameTextBox";
             this.VehicleTypeNameTextBox.Size = new System.Drawing.Size(101, 22);
             this.VehicleTypeNameTextBox.TabIndex = 1;
-           
             // 
             // MakeNameTextBox
             // 
             this.MakeNameTextBox.Location = new System.Drawing.Point(119, 152);
             this.MakeNameTextBox.Name = "MakeNameTextBox";
             this.MakeNameTextBox.Size = new System.Drawing.Size(101, 22);
-            this.MakeNameTextBox.TabIndex = 2;
+            this.MakeNameTextBox.TabIndex = 0;
             // 
             // MakeLabel
             // 
@@ -84,7 +83,7 @@
             this.MakeLabel.Location = new System.Drawing.Point(21, 103);
             this.MakeLabel.Name = "MakeLabel";
             this.MakeLabel.Size = new System.Drawing.Size(61, 25);
-            this.MakeLabel.TabIndex = 3;
+            this.MakeLabel.TabIndex = 0;
             this.MakeLabel.Text = "Make";
             // 
             // ModelLabel
@@ -94,7 +93,7 @@
             this.ModelLabel.Location = new System.Drawing.Point(923, 103);
             this.ModelLabel.Name = "ModelLabel";
             this.ModelLabel.Size = new System.Drawing.Size(66, 25);
-            this.ModelLabel.TabIndex = 4;
+            this.ModelLabel.TabIndex = 0;
             this.ModelLabel.Text = "Model";
             // 
             // VehicleTypeLabel
@@ -104,7 +103,7 @@
             this.VehicleTypeLabel.Location = new System.Drawing.Point(318, 103);
             this.VehicleTypeLabel.Name = "VehicleTypeLabel";
             this.VehicleTypeLabel.Size = new System.Drawing.Size(127, 25);
-            this.VehicleTypeLabel.TabIndex = 5;
+            this.VehicleTypeLabel.TabIndex = 0;
             this.VehicleTypeLabel.Text = "Vehicle Type";
             // 
             // TitleLabel
@@ -114,7 +113,7 @@
             this.TitleLabel.Location = new System.Drawing.Point(418, 30);
             this.TitleLabel.Name = "TitleLabel";
             this.TitleLabel.Size = new System.Drawing.Size(546, 32);
-            this.TitleLabel.TabIndex = 6;
+            this.TitleLabel.TabIndex = 0;
             this.TitleLabel.Text = "Welcome To Our Used Vehicle Dealership";
             this.TitleLabel.Click += new System.EventHandler(this.TitleLabel_Click);
             // 
@@ -123,7 +122,7 @@
             this.addButton.Location = new System.Drawing.Point(576, 505);
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(75, 23);
-            this.addButton.TabIndex = 7;
+            this.addButton.TabIndex = 9;
             this.addButton.Text = "Add Vehicle";
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.button1_Click);
@@ -134,7 +133,7 @@
             this.YearLabel.Location = new System.Drawing.Point(615, 155);
             this.YearLabel.Name = "YearLabel";
             this.YearLabel.Size = new System.Drawing.Size(38, 17);
-            this.YearLabel.TabIndex = 8;
+            this.YearLabel.TabIndex = 0;
             this.YearLabel.Text = "Year";
             // 
             // yearTextBox
@@ -142,14 +141,14 @@
             this.yearTextBox.Location = new System.Drawing.Point(727, 149);
             this.yearTextBox.Name = "yearTextBox";
             this.yearTextBox.Size = new System.Drawing.Size(100, 22);
-            this.yearTextBox.TabIndex = 9;
+            this.yearTextBox.TabIndex = 2;
             // 
             // PriceTextBox
             // 
             this.PriceTextBox.Location = new System.Drawing.Point(727, 204);
             this.PriceTextBox.Name = "PriceTextBox";
             this.PriceTextBox.Size = new System.Drawing.Size(100, 22);
-            this.PriceTextBox.TabIndex = 10;
+            this.PriceTextBox.TabIndex = 3;
             // 
             // PriceLabel
             // 
@@ -157,7 +156,7 @@
             this.PriceLabel.Location = new System.Drawing.Point(615, 204);
             this.PriceLabel.Name = "PriceLabel";
             this.PriceLabel.Size = new System.Drawing.Size(40, 17);
-            this.PriceLabel.TabIndex = 11;
+            this.PriceLabel.TabIndex = 0;
             this.PriceLabel.Text = "Price";
             // 
             // EngineSizeLabel
@@ -183,7 +182,7 @@
             this.NumberOfDoorsTextBox.Location = new System.Drawing.Point(1079, 207);
             this.NumberOfDoorsTextBox.Name = "NumberOfDoorsTextBox";
             this.NumberOfDoorsTextBox.Size = new System.Drawing.Size(100, 22);
-            this.NumberOfDoorsTextBox.TabIndex = 14;
+            this.NumberOfDoorsTextBox.TabIndex = 7;
             // 
             // ColourLabel
             // 
@@ -199,7 +198,7 @@
             this.ColourTextBox.Location = new System.Drawing.Point(1078, 249);
             this.ColourTextBox.Name = "ColourTextBox";
             this.ColourTextBox.Size = new System.Drawing.Size(100, 22);
-            this.ColourTextBox.TabIndex = 16;
+            this.ColourTextBox.TabIndex = 8;
             // 
             // VehicleLabel
             // 
@@ -208,7 +207,7 @@
             this.VehicleLabel.Location = new System.Drawing.Point(615, 103);
             this.VehicleLabel.Name = "VehicleLabel";
             this.VehicleLabel.Size = new System.Drawing.Size(77, 25);
-            this.VehicleLabel.TabIndex = 17;
+            this.VehicleLabel.TabIndex = 0;
             this.VehicleLabel.Text = "Vehicle";
             // 
             // CostLabel
@@ -217,7 +216,7 @@
             this.CostLabel.Location = new System.Drawing.Point(615, 249);
             this.CostLabel.Name = "CostLabel";
             this.CostLabel.Size = new System.Drawing.Size(36, 17);
-            this.CostLabel.TabIndex = 18;
+            this.CostLabel.TabIndex = 0;
             this.CostLabel.Text = "Cost";
             // 
             // SoldDateLabel
@@ -226,7 +225,7 @@
             this.SoldDateLabel.Location = new System.Drawing.Point(615, 298);
             this.SoldDateLabel.Name = "SoldDateLabel";
             this.SoldDateLabel.Size = new System.Drawing.Size(70, 17);
-            this.SoldDateLabel.TabIndex = 19;
+            this.SoldDateLabel.TabIndex = 0;
             this.SoldDateLabel.Text = "Sold Date";
             // 
             // CostTextBox
@@ -234,14 +233,14 @@
             this.CostTextBox.Location = new System.Drawing.Point(727, 249);
             this.CostTextBox.Name = "CostTextBox";
             this.CostTextBox.Size = new System.Drawing.Size(100, 22);
-            this.CostTextBox.TabIndex = 20;
+            this.CostTextBox.TabIndex = 4;
             // 
             // SoldDateDateTimePicker
             // 
             this.SoldDateDateTimePicker.Location = new System.Drawing.Point(727, 298);
             this.SoldDateDateTimePicker.Name = "SoldDateDateTimePicker";
             this.SoldDateDateTimePicker.Size = new System.Drawing.Size(100, 22);
-            this.SoldDateDateTimePicker.TabIndex = 21;
+            this.SoldDateDateTimePicker.TabIndex = 5;
             // 
             // MakeNameLabel
             // 
@@ -249,7 +248,7 @@
             this.MakeNameLabel.Location = new System.Drawing.Point(26, 156);
             this.MakeNameLabel.Name = "MakeNameLabel";
             this.MakeNameLabel.Size = new System.Drawing.Size(45, 17);
-            this.MakeNameLabel.TabIndex = 22;
+            this.MakeNameLabel.TabIndex = 0;
             this.MakeNameLabel.Text = "Name";
             // 
             // VehicleTypeNameLabel
@@ -258,7 +257,7 @@
             this.VehicleTypeNameLabel.Location = new System.Drawing.Point(297, 157);
             this.VehicleTypeNameLabel.Name = "VehicleTypeNameLabel";
             this.VehicleTypeNameLabel.Size = new System.Drawing.Size(45, 17);
-            this.VehicleTypeNameLabel.TabIndex = 23;
+            this.VehicleTypeNameLabel.TabIndex = 0;
             this.VehicleTypeNameLabel.Text = "Name";
             // 
             // ViewVehiclesButton
@@ -266,7 +265,7 @@
             this.ViewVehiclesButton.Location = new System.Drawing.Point(718, 505);
             this.ViewVehiclesButton.Name = "ViewVehiclesButton";
             this.ViewVehiclesButton.Size = new System.Drawing.Size(109, 23);
-            this.ViewVehiclesButton.TabIndex = 24;
+            this.ViewVehiclesButton.TabIndex = 10;
             this.ViewVehiclesButton.Text = "View Vehicles";
             this.ViewVehiclesButton.UseVisualStyleBackColor = true;
             this.ViewVehiclesButton.Click += new System.EventHandler(this.ViewVehiclesButton_Click);
@@ -302,7 +301,7 @@
             this.Controls.Add(this.VehicleTypeNameTextBox);
             this.Controls.Add(this.EngineSizeTextBox);
             this.Name = "VehicleForm";
-            this.Text = "Used Vehicles";
+            this.Text = "7";
             this.Load += new System.EventHandler(this.Vehicle_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

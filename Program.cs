@@ -23,7 +23,7 @@ namespace VehicleDealership
            
             SqlConnection mySql = new SqlConnection(sqlConnectionString);
             mySql.Open();
-            Console.WriteLine("Connected!");
+            //Console.WriteLine("Connected!");
 
 
         }
